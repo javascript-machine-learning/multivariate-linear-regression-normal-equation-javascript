@@ -21,7 +21,6 @@ function init(matrix) {
   });
 
   let m = getDimensionSize(y, 1);
-  let n = getDimensionSize(y, 2);
 
   // Part 1: Normal Equation
   console.log('Part 1: Normal Equation ...\n');
