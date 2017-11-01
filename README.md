@@ -6,7 +6,7 @@ This example project demonstrates how the normal equation may be used to solve a
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/multivariate-linear-regression-normal-equation-javascript.git`
+* `git clone git@github.com:javascript-machine-learning/multivariate-linear-regression-normal-equation-javascript.git`
 * `cd multivariate-linear-regression-normal-equation-javascript`
 * `npm install`
 * `npm start`
