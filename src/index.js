@@ -33,7 +33,7 @@ function init(matrix) {
   console.log('theta: ', theta);
   console.log('\n');
 
-  // Part 3: Predict Price of 1650 square meter and 3 bedroom house
+  // Part 2: Predict Price of 1650 square meter and 3 bedroom house
   console.log('Part 3: Price Prediction ...\n');
 
   let houseVector = [1, 1650, 3];
