@@ -1,11 +1,6 @@
 import math from 'mathjs';
 import csvToMatrix  from 'csv-to-array-matrix';
 
-import {
-  getDimensionSize,
-  pushVector,
-} from 'mathjs-util';
-
 csvToMatrix('./src/data.csv', init);
 
 function init(matrix) {
@@ -20,13 +15,13 @@ function init(matrix) {
     matrix,
   });
 
-  let m = getDimensionSize(y, 1);
+  let m = y.length;
 
   // Part 1: Normal Equation
   console.log('Part 1: Normal Equation ...\n');
 
   // Add Intercept Term
-  X = pushVector(X, 0, math.ones([m, 1]).valueOf());
+  X = math.concat(math.ones([m, 1]).valueOf(), X);
 
   let theta = normalEquation(X, y);
 
